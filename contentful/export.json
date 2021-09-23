@@ -5559,7 +5559,7 @@
             "readOnly": true,
             "defaultValue": "blog_feed_section"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -5569,7 +5569,7 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -5736,7 +5736,7 @@
             "readOnly": true,
             "defaultValue": "features_section"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -5746,7 +5746,7 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -5817,7 +5817,7 @@
             "readOnly": true,
             "defaultValue": "advanced"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -5834,7 +5834,7 @@
             "readOnly": true,
             "defaultValue": "content/pages"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -5844,7 +5844,7 @@
             "readOnly": true,
             "defaultValue": "page"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -6007,7 +6007,7 @@
             "readOnly": true,
             "defaultValue": "footer"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -6017,7 +6017,7 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -6173,7 +6173,7 @@
             "readOnly": true,
             "defaultValue": "header"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -6183,7 +6183,7 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -6316,7 +6316,7 @@
             "readOnly": true,
             "defaultValue": "content/data/config.json"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -6326,8 +6326,8 @@
             "readOnly": true,
             "defaultValue": "data"
           },
-          "widgetId": "dropdown",
-"widgetNamespace": "builtin"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -6502,7 +6502,7 @@
             "readOnly": true,
             "defaultValue": "cta_section"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -6512,7 +6512,7 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -6639,7 +6639,7 @@
             "readOnly": true,
             "defaultValue": "feature"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -6649,7 +6649,7 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -6747,7 +6747,7 @@
             "readOnly": true,
             "defaultValue": "form_field"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -6757,7 +6757,7 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -6994,7 +6994,7 @@
             "readOnly": true,
             "defaultValue": "form_section"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -7004,7 +7004,7 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -7179,7 +7179,7 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -7379,7 +7379,7 @@
             "readOnly": true,
             "defaultValue": "grid_section"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -7389,7 +7389,7 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -7454,7 +7454,7 @@
             "readOnly": true,
             "defaultValue": "page"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -7471,7 +7471,7 @@
             "readOnly": true,
             "defaultValue": "content/pages"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -7488,7 +7488,7 @@
             "readOnly": true,
             "defaultValue": "page"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -7573,8 +7573,8 @@
             "readOnly": true,
             "defaultValue": "person"
           },
-          "widgetId": "dropdown",
-"widgetNamespace": "builtin"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -7583,8 +7583,8 @@
             "readOnly": true,
             "defaultValue": "data"
           },
-          "widgetId": "dropdown",
-"widgetNamespace": "builtin"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -7669,7 +7669,7 @@
             "readOnly": true,
             "defaultValue": "stackbit_page_meta"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -7679,7 +7679,7 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -7756,7 +7756,7 @@
             "readOnly": true,
             "defaultValue": "tag"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -7766,7 +7766,7 @@
             "readOnly": true,
             "defaultValue": "data"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -7906,7 +7906,7 @@
             "readOnly": true,
             "defaultValue": "post"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -7923,7 +7923,7 @@
             "readOnly": true,
             "defaultValue": "content/pages"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -7940,7 +7940,7 @@
             "readOnly": true,
             "defaultValue": "page"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -8143,7 +8143,7 @@
             "readOnly": true,
             "defaultValue": "hero_section"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -8153,7 +8153,7 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
@@ -8237,7 +8237,7 @@
             "readOnly": true,
             "defaultValue": "stackbit_page_meta_extra"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
@@ -8247,7 +8247,7 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         }
       ]
