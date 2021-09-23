@@ -7169,7 +7169,7 @@
             "readOnly": true,
             "defaultValue": "grid_item"
           },
-          "widgetId": "dropdown",
+          "widgetId": "singleLine",
 "widgetNamespace": "builtin"
         },
         {
