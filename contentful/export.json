@@ -5147,23 +5147,28 @@
         {
           "fieldId": "url",
           "settings": {
-            "defaultValue": "#"
+            "helpText": "The target URL of the link, for example \"/about\""
           },
-          "widgetId": "default-field-value"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "style",
           "settings": {
+            "helpText": "Choose style between simple link, primary or secondary button",
             "defaultValue": "link"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "has_icon",
           "settings": {
+            "helpText": "Has icon",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "icon",
@@ -5172,17 +5177,19 @@
         {
           "fieldId": "icon_position",
           "settings": {
-            "helpText": "Select \"center\" to display icon only and hide the label",
-            "defaultValue": "right"
+            "helpText": "The position of the icon relative to link label",
+            "defaultValue": "left"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "new_window",
           "settings": {
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "no_follow",
@@ -5190,7 +5197,8 @@
             "helpText": "Add rel=\"nofollow\" attribute to the link",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "type",
@@ -5199,7 +5207,8 @@
             "readOnly": true,
             "defaultValue": "action"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -5208,7 +5217,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -5284,7 +5294,8 @@
             "readOnly": true,
             "defaultValue": "category"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -5293,7 +5304,8 @@
             "readOnly": true,
             "defaultValue": "data"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -5367,7 +5379,8 @@
             "helpText": "Show the specified number of posts in a blog feed grid row",
             "defaultValue": "three"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "enable_cards",
@@ -5375,7 +5388,8 @@
             "helpText": "Display posts as cards, i.e. add border, background and some padding around post content",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "show_recent",
@@ -5383,7 +5397,8 @@
             "helpText": "Show the specified number of recent posts. Should not be used with author, category and tag filters",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "recent_count",
@@ -5413,7 +5428,8 @@
             "helpText": "Show the publish date of the post",
             "defaultValue": true
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "show_categories",
@@ -5421,7 +5437,8 @@
             "helpText": "Show the categories of the post",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "show_author",
@@ -5429,7 +5446,8 @@
             "helpText": "Show the author of the post",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "show_excerpt",
@@ -5437,7 +5455,8 @@
             "helpText": "Show the excerpt of the post",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "show_image",
@@ -5445,7 +5464,8 @@
             "helpText": "Show the post image thumbnail",
             "defaultValue": true
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "align",
@@ -5453,7 +5473,8 @@
             "helpText": "The horizontal alignment of the section content (title, subtitle, action buttons)",
             "defaultValue": "center"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "padding_top",
@@ -5461,7 +5482,8 @@
             "helpText": "The padding area (space) on the top of the section",
             "defaultValue": "medium"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "padding_bottom",
@@ -5469,7 +5491,8 @@
             "helpText": "The padding area (space) on the bottom of the section",
             "defaultValue": "medium"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "has_border",
@@ -5477,7 +5500,8 @@
             "helpText": "Add section bottom border",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_color",
@@ -5485,7 +5509,8 @@
             "helpText": "The background color of the section",
             "defaultValue": "none"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image",
@@ -5506,7 +5531,8 @@
             "helpText": "The size of the background image",
             "defaultValue": "cover"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image_position",
@@ -5514,7 +5540,8 @@
             "helpText": "The starting position of a background image. The first value is the horizontal position, and the second value is the vertical",
             "defaultValue": "center center"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image_repeat",
@@ -5522,7 +5549,8 @@
             "helpText": "Repeat the image to cover the whole area",
             "defaultValue": "no-repeat"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "type",
@@ -5531,7 +5559,8 @@
             "readOnly": true,
             "defaultValue": "blog_feed_section"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -5540,7 +5569,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -5611,7 +5641,8 @@
             "helpText": "The vertical spacing between section features",
             "defaultValue": "medium"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "align",
@@ -5619,7 +5650,8 @@
             "helpText": "The horizontal alignment of the section content (title, subtitle)",
             "defaultValue": "center"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "padding_top",
@@ -5627,7 +5659,8 @@
             "helpText": "The padding area (space) on the top of the section",
             "defaultValue": "medium"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "padding_bottom",
@@ -5635,7 +5668,8 @@
             "helpText": "The padding area (space) on the bottom of the section",
             "defaultValue": "medium"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "has_border",
@@ -5643,7 +5677,8 @@
             "helpText": "Add section bottom border",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_color",
@@ -5651,7 +5686,8 @@
             "helpText": "The background color of the section",
             "defaultValue": "none"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image",
@@ -5672,7 +5708,8 @@
             "helpText": "The size of the background image",
             "defaultValue": "cover"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image_position",
@@ -5680,7 +5717,8 @@
             "helpText": "The starting position of a background image. The first value is the horizontal position, and the second value is the vertical",
             "defaultValue": "center center"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image_repeat",
@@ -5688,7 +5726,8 @@
             "helpText": "Repeat the image to cover the whole area",
             "defaultValue": "no-repeat"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "type",
@@ -5697,7 +5736,8 @@
             "readOnly": true,
             "defaultValue": "features_section"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -5706,7 +5746,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -5776,7 +5817,8 @@
             "readOnly": true,
             "defaultValue": "advanced"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_url_path",
@@ -5792,7 +5834,8 @@
             "readOnly": true,
             "defaultValue": "content/pages"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -5801,7 +5844,8 @@
             "readOnly": true,
             "defaultValue": "page"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -5868,7 +5912,8 @@
             "helpText": "Display the primary navigation menu",
             "defaultValue": true
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "primary_nav_title",
@@ -5889,7 +5934,8 @@
             "helpText": "Display the secondary navigation menu",
             "defaultValue": true
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "secondary_nav_title",
@@ -5910,7 +5956,8 @@
             "helpText": "Display the tertiary navigation menu",
             "defaultValue": true
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "tertiary_nav_title",
@@ -5931,7 +5978,8 @@
             "helpText": "Display the social links",
             "defaultValue": true
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "social_links",
@@ -5959,7 +6007,8 @@
             "readOnly": true,
             "defaultValue": "footer"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -5968,7 +6017,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -6042,7 +6092,8 @@
             "helpText": "Display the navigation menu on the left side, next to the site title/logo",
             "defaultValue": true
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "primary_nav_links",
@@ -6056,7 +6107,8 @@
             "helpText": "Display the navigation menu on the right side",
             "defaultValue": true
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "secondary_nav_links",
@@ -6070,7 +6122,8 @@
             "helpText": "Display the announcement above the site header",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "anncmnt_content",
@@ -6085,7 +6138,8 @@
             "helpText": "The horizontal alignment of the announcement content",
             "defaultValue": "left"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "anncmnt_is_home_only",
@@ -6093,7 +6147,8 @@
             "helpText": "Display the announcement on the home page only.",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "anncmnt_has_close",
@@ -6101,7 +6156,8 @@
             "helpText": "Display the announcement close button",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "anncmnt_id",
@@ -6117,7 +6173,8 @@
             "readOnly": true,
             "defaultValue": "header"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -6126,7 +6183,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -6207,7 +6265,8 @@
             "helpText": "The layout of the site",
             "defaultValue": "full-width"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "style",
@@ -6215,7 +6274,8 @@
             "helpText": "The style of the site",
             "defaultValue": "classic"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "palette",
@@ -6223,7 +6283,8 @@
             "helpText": "The palette of the site",
             "defaultValue": "blue"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "mode",
@@ -6231,14 +6292,16 @@
             "helpText": "The color scheme of the site",
             "defaultValue": "dark"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "base_font",
           "settings": {
             "defaultValue": "sans-serif"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "header"
@@ -6253,7 +6316,8 @@
             "readOnly": true,
             "defaultValue": "content/data/config.json"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -6262,7 +6326,8 @@
             "readOnly": true,
             "defaultValue": "data"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -6333,7 +6398,8 @@
             "helpText": "The position of action buttons relative to the text content",
             "defaultValue": "bottom"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "actions_width",
@@ -6341,7 +6407,8 @@
             "helpText": "The action buttons container width as a percentage of the section width. Used only when the action buttons position is set to \"left\" or \"right\"",
             "defaultValue": "fourty"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "align",
@@ -6349,7 +6416,8 @@
             "helpText": "The horizontal alignment of the section content",
             "defaultValue": "left"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "padding_top",
@@ -6357,7 +6425,8 @@
             "helpText": "The padding area (space) on the top of the section",
             "defaultValue": "medium"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "padding_bottom",
@@ -6365,7 +6434,8 @@
             "helpText": "The padding area (space) on the bottom of the section",
             "defaultValue": "medium"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "has_border",
@@ -6373,7 +6443,8 @@
             "helpText": "Add section bottom border",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_color",
@@ -6381,7 +6452,8 @@
             "helpText": "The background color of the section",
             "defaultValue": "none"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image",
@@ -6402,7 +6474,8 @@
             "helpText": "The size of the background image",
             "defaultValue": "cover"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image_position",
@@ -6410,7 +6483,8 @@
             "helpText": "The starting position of a background image. The first value is the horizontal position, and the second value is the vertical",
             "defaultValue": "center center"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image_repeat",
@@ -6418,7 +6492,8 @@
             "helpText": "Repeat the image to cover the whole area",
             "defaultValue": "no-repeat"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "type",
@@ -6427,7 +6502,8 @@
             "readOnly": true,
             "defaultValue": "cta_section"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -6436,7 +6512,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -6534,7 +6611,8 @@
             "helpText": "The position of the image or video relative to the text content",
             "defaultValue": "top"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "media_width",
@@ -6542,7 +6620,8 @@
             "helpText": "The image or video container width as a percentage of the feature width. Used only when the image or video position is set to \"left\" or \"right\"",
             "defaultValue": "fifty"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "align",
@@ -6550,7 +6629,8 @@
             "helpText": "The horizontal alignment of the feature content",
             "defaultValue": "left"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "type",
@@ -6559,7 +6639,8 @@
             "readOnly": true,
             "defaultValue": "feature"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -6568,7 +6649,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -6655,7 +6737,8 @@
           "settings": {
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "type",
@@ -6664,7 +6747,8 @@
             "readOnly": true,
             "defaultValue": "form_field"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -6673,7 +6757,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -6741,7 +6826,8 @@
             "helpText": "The horizontal alignment of the section title and subtitle",
             "defaultValue": "left"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "content",
@@ -6756,7 +6842,8 @@
             "helpText": "The horizontal alignment of the section text content",
             "defaultValue": "left"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "form_position",
@@ -6764,7 +6851,8 @@
             "helpText": "The position of the form relative to the text content of the section",
             "defaultValue": "bottom"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "form_width",
@@ -6772,7 +6860,8 @@
             "helpText": "The form container width as a percentage of the section width. Used only when the form position is set to \"left\" or \"right\"",
             "defaultValue": "fifty"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "form_layout",
@@ -6780,7 +6869,8 @@
             "helpText": "The layout of the form. \"Inline\" layout can only be used if the form has one input field",
             "defaultValue": "stacked"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "enable_card",
@@ -6788,7 +6878,8 @@
             "helpText": "Display form inside a box, i.e. add border and background to the form container",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "form_id",
@@ -6817,7 +6908,8 @@
             "helpText": "The vertical alignment of the section text content and form. Used only when the form position is set to \"left\" or \"right\"",
             "defaultValue": "top"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "padding_top",
@@ -6825,7 +6917,8 @@
             "helpText": "The padding area (space) on the top of the section",
             "defaultValue": "medium"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "padding_bottom",
@@ -6833,7 +6926,8 @@
             "helpText": "The padding area (space) on the bottom of the section",
             "defaultValue": "medium"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "has_border",
@@ -6841,7 +6935,8 @@
             "helpText": "Add section bottom border",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_color",
@@ -6849,7 +6944,8 @@
             "helpText": "The background color of the section",
             "defaultValue": "none"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image",
@@ -6870,7 +6966,8 @@
             "helpText": "The size of the background image",
             "defaultValue": "cover"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image_position",
@@ -6878,7 +6975,8 @@
             "helpText": "The starting position of a background image. The first value is the horizontal position, and the second value is the vertical",
             "defaultValue": "center center"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image_repeat",
@@ -6886,7 +6984,8 @@
             "helpText": "Repeat the image to cover the whole area",
             "defaultValue": "no-repeat"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "type",
@@ -6895,7 +6994,8 @@
             "readOnly": true,
             "defaultValue": "form_section"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -6904,7 +7004,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -6972,7 +7073,8 @@
             "helpText": "The horizontal alignment of the item title and subtitle",
             "defaultValue": "left"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "content",
@@ -6987,7 +7089,8 @@
             "helpText": "The horizontal alignment of the item text content",
             "defaultValue": "left"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "actions"
@@ -6998,7 +7101,8 @@
             "helpText": "The horizontal alignment of the item action buttons",
             "defaultValue": "left"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "actions_width",
@@ -7006,7 +7110,8 @@
             "helpText": "The width of action button",
             "defaultValue": "auto"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "image",
@@ -7027,7 +7132,8 @@
             "helpText": "The position of the image relative to the text content",
             "defaultValue": "top"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "image_width",
@@ -7035,7 +7141,8 @@
             "helpText": "The image container width as a percentage of the item width. Used only when the image position is set to \"left\" or \"right\"",
             "defaultValue": "fifty"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "image_align",
@@ -7043,7 +7150,8 @@
             "helpText": "The horizontal alignment of the image",
             "defaultValue": "left"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "image_has_padding",
@@ -7051,7 +7159,8 @@
             "helpText": "Add padding (space) around the image. Used only when \"Enable cards\" is set to true",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "type",
@@ -7060,7 +7169,8 @@
             "readOnly": true,
             "defaultValue": "grid_item"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -7069,7 +7179,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -7146,7 +7257,8 @@
             "helpText": "Show the specified number of items in a grid row",
             "defaultValue": "three"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "grid_gap_vert",
@@ -7154,7 +7266,8 @@
             "helpText": "The vertical spacing between grid items",
             "defaultValue": "small"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "grid_gap_horiz",
@@ -7162,7 +7275,8 @@
             "helpText": "The horizontal spacing between grid items",
             "defaultValue": "small"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "enable_cards",
@@ -7170,7 +7284,8 @@
             "helpText": "Display items as cards, i.e. add border, background and some padding around the item content",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "align",
@@ -7178,7 +7293,8 @@
             "helpText": "The horizontal alignment of the section content (title, subtitle, action buttons)",
             "defaultValue": "center"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "padding_top",
@@ -7186,7 +7302,8 @@
             "helpText": "The padding area (space) on the top of the section",
             "defaultValue": "medium"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "padding_bottom",
@@ -7194,7 +7311,8 @@
             "helpText": "The padding area (space) on the bottom of the section",
             "defaultValue": "medium"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "has_border",
@@ -7202,7 +7320,8 @@
             "helpText": "Add section bottom border",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_color",
@@ -7210,7 +7329,8 @@
             "helpText": "The background color of the section",
             "defaultValue": "none"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image",
@@ -7231,7 +7351,8 @@
             "helpText": "The size of the background image",
             "defaultValue": "cover"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image_position",
@@ -7239,7 +7360,8 @@
             "helpText": "The starting position of a background image. The first value is the horizontal position, and the second value is the vertical",
             "defaultValue": "center center"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image_repeat",
@@ -7247,7 +7369,8 @@
             "helpText": "Repeat the image to cover the whole area",
             "defaultValue": "no-repeat"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "type",
@@ -7256,7 +7379,8 @@
             "readOnly": true,
             "defaultValue": "grid_section"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -7265,7 +7389,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -7329,7 +7454,8 @@
             "readOnly": true,
             "defaultValue": "page"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_url_path",
@@ -7345,7 +7471,8 @@
             "readOnly": true,
             "defaultValue": "content/pages"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "content",
@@ -7361,7 +7488,8 @@
             "readOnly": true,
             "defaultValue": "page"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -7445,7 +7573,8 @@
             "readOnly": true,
             "defaultValue": "person"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -7454,7 +7583,8 @@
             "readOnly": true,
             "defaultValue": "data"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -7508,7 +7638,8 @@
             "helpText": "The page title that goes into the <title> tag",
             "defaultValue": ""
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "description",
@@ -7516,7 +7647,8 @@
             "helpText": "The page description that goes into the <meta name=\"description\"> tag",
             "defaultValue": ""
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "robots",
@@ -7537,7 +7669,8 @@
             "readOnly": true,
             "defaultValue": "stackbit_page_meta"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -7546,7 +7679,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -7622,7 +7756,8 @@
             "readOnly": true,
             "defaultValue": "tag"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -7631,7 +7766,8 @@
             "readOnly": true,
             "defaultValue": "data"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -7758,7 +7894,8 @@
             "helpText": "The featured image position in the blog post relative to the post header content",
             "defaultValue": "top"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "seo"
@@ -7769,7 +7906,8 @@
             "readOnly": true,
             "defaultValue": "post"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_url_path",
@@ -7785,7 +7923,8 @@
             "readOnly": true,
             "defaultValue": "content/pages"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "content",
@@ -7801,7 +7940,8 @@
             "readOnly": true,
             "defaultValue": "page"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -7899,7 +8039,8 @@
             "helpText": "The position of the image or video relative to the text content",
             "defaultValue": "top"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "media_width",
@@ -7907,7 +8048,8 @@
             "helpText": "The image or video container width as a percentage of the section width. Used only when the image or video position is set to \"left\" or \"right\"",
             "defaultValue": "fifty"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "align",
@@ -7915,7 +8057,8 @@
             "helpText": "The horizontal alignment of the section content",
             "defaultValue": "left"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "padding_top",
@@ -7923,7 +8066,8 @@
             "helpText": "The padding area (space) on the top of the section",
             "defaultValue": "medium"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "padding_bottom",
@@ -7931,7 +8075,8 @@
             "helpText": "The padding area (space) on the bottom of the section",
             "defaultValue": "medium"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "has_border",
@@ -7939,7 +8084,8 @@
             "helpText": "Add section bottom border",
             "defaultValue": false
           },
-          "widgetId": "default-boolean-value"
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_color",
@@ -7947,7 +8093,8 @@
             "helpText": "The background color of the section",
             "defaultValue": "none"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image",
@@ -7968,7 +8115,8 @@
             "helpText": "The size of the background image",
             "defaultValue": "cover"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image_position",
@@ -7976,7 +8124,8 @@
             "helpText": "The starting position of a background image. The first value is the horizontal position, and the second value is the vertical",
             "defaultValue": "center center"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "background_image_repeat",
@@ -7984,7 +8133,8 @@
             "helpText": "Repeat the image to cover the whole area",
             "defaultValue": "no-repeat"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "type",
@@ -7993,7 +8143,8 @@
             "readOnly": true,
             "defaultValue": "hero_section"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -8002,7 +8153,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     },
@@ -8055,21 +8207,24 @@
           "settings": {
             "defaultValue": ""
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "value",
           "settings": {
             "defaultValue": ""
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "keyName",
           "settings": {
             "defaultValue": "name"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "relativeUrl",
@@ -8082,7 +8237,8 @@
             "readOnly": true,
             "defaultValue": "stackbit_page_meta_extra"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         },
         {
           "fieldId": "stackbit_model_type",
@@ -8091,7 +8247,8 @@
             "readOnly": true,
             "defaultValue": "object"
           },
-          "widgetId": "default-field-value"
+          "widgetId": "dropdown",
+"widgetNamespace": "builtin"
         }
       ]
     }
